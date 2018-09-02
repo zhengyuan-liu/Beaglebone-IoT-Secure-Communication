@@ -5,14 +5,16 @@ Beaglebone with a temperature sensor accepts commands from a network server, and
 
 The embedded OS of Beaglebone is Debian GNU/Linux 8. MRAA AIO/GPIO is used to get IO from sensors.
 
-## Source Code Description:
+## Description:
 ### Unencrypted Communication with a Logging Server
 lab4c_tcp:
 * builds and runs on Beaglebone.
 * accepts the following parameters:
-  * --id=9-digit-number
-  * --host=name or address
-  * --log=filename
+  * `--period=`#, sampling interval in seconds
+  * `--scale=`F|C, Fahrenheit or Celsius
+  * `--id=`9-digit-number
+  * `--host=`name or address
+  * `--log=`filename
   * port number
 * accepts commands and generates reports from/to a network connection to a server.
   1. open a TCP connection to the server at the specified address and port

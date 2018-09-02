@@ -1,5 +1,5 @@
-# Beaglebone-Internet-of-Things
-A embedded system (Beaglebone) and Internet of Things project. 
+# Beaglebone-IoT-Secure-Communication
+A embedded system (Beaglebone) and Internet of Things project about secure communication. 
 
 Beaglebone with a temperature sensor accepts commands from a network server, and sends reports back to the server, in both unencrypted (TCP) and encrypted (TLS) channels.
 

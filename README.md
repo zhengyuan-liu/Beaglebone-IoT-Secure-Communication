@@ -1,5 +1,9 @@
 # Beaglebone-Internet-of-Things
-A embedded system (Beaglebone) and Internet of Things project. Beaglebone with a temperature sensor accepts commands from a network server, and sends reports back to the server, in both unencrypted (TCP) and encrypted (TLS) channels.
+A embedded system (Beaglebone) and Internet of Things project. 
+
+Beaglebone with a temperature sensor accepts commands from a network server, and sends reports back to the server, in both unencrypted (TCP) and encrypted (TLS) channels.
+
+The embedded OS of Beaglebone is Debian GNU/Linux 8. MRAA AIO/GPIO is used to get IO from sensors.
 
 ## Source Code Description:
 ### Unencrypted Communication with a Logging Server
